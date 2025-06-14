@@ -1,18 +1,12 @@
-import React from 'react';
-import styled from '@emotion/styled';
-
-
-const Container = styled.div `
-  text-align: center;
-`
+import React from "react";
+import styled from "@emotion/styled";
+import { Hello } from "./Hello";
 
 function App() {
   return (
-    <Container>
-      {/*<div className="App">*/}
-      <h1>Hello, React + TypeScript!</h1>
-      {/*</div>*/}
-    </Container>
+    <div className="App">
+      <Hello name="gyuri" color="blue" />
+    </div>
   );
 }
 
